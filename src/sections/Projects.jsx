@@ -5,7 +5,7 @@ const projects = [
     title: "Employee Management System",
     description:
       "Developed a full-stack Employee Management System using React, TailwindCSS, Java Spring Boot, and MySQL to manage employee records, departments, attendance, and payroll operations efficiently. Features include responsive UI, secure REST APIs, and CRUD functionality.",
-    image: "/public/projects/EMS.png",
+    image: "/projects/EMS.png",
     tags: ["React", "Java", "SpringBoot", "MySql"],
     link: "#",
     github: "#",
@@ -14,7 +14,7 @@ const projects = [
     title: "E-Commerce (ShopEase)",
     description:
       "a full-stack E-Commerce web application using React, TailwindCSS, Java Spring Boot, and MySQL with features like product listing, shopping cart, user authentication, and order management.",
-    image: "/public/projects/ecommerce.png",
+    image: "/projects/ecommerce.png",
     tags: ["React.js", "Java", "SprintBoot", "PostgreSQL"],
     link: "#",
     github: "#",
@@ -23,7 +23,7 @@ const projects = [
     title: "Music Player",
     description:
       "Built a responsive Music Player application using React, TailwindCSS, Java Spring Boot, PostgreSQL, and Cloudinary with features like song playback, playlist management, and a modern user-friendly interface.",
-    image: "/public/projects/music.png",
+    image: "/projects/music.png",
     tags: ["React.js", "TailwindCSS", "Java", "Spring Boot", "PostgreSQL", "Cloudinary", "REST APIs"],
     link: "#",
     github: "#",
@@ -32,7 +32,7 @@ const projects = [
     title: "Banking Application (Secure Bank",
     description:
       "Developing a secure Banking Application using React, TailwindCSS, Java Spring Boot, and PostgreSQL with features like user authentication, money transfer, transaction history, and account management through a responsive and user-friendly interface.",
-    image: "/public/projects/Banking.png",
+    image: "/projects/Banking.png",
     tags: ["React.js", "TailwindCSS", "Java", "Spring Boot", "PostgreSQL", "JWT Authentication", "REST APIs"],
     link: "#",
     github: "#",
