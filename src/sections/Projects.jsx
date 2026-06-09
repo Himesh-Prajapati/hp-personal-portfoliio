@@ -1,23 +1,44 @@
 import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
+
+  {
+    title: "Amazon Clone",
+    description:
+      "Developed an Amazon-inspired e-commerce application using React.js and JavaScript. Implemented user authentication, product listing, and shopping cart functionality with a responsive and user-friendly interface. Built reusable components and optimized the application for a seamless shopping experience.",
+    image: "/projects/Amazon.jpg",
+    tags: ["React.js",
+      "JavaScript",
+      "Firebase",
+      "TailwindCSS"],
+    link: "https://amazon-clone-rho-lime.vercel.app/",
+    github: "https://github.com/Himesh-Prajapati/Amazon-Clone-html-css",
+  },
   {
     title: "Employee Management System",
     description:
-      "Developed a full-stack Employee Management System using React, TailwindCSS, Java Spring Boot, and MySQL to manage employee records, departments, attendance, and payroll operations efficiently. Features include responsive UI, secure REST APIs, and CRUD functionality.",
-    image: "/projects/EMS.png",
-    tags: ["React", "Java", "SpringBoot", "MySql"],
-    link: "#",
-    github: "#",
+      "Developed a full-stack Employee Management System using React.js, Node.js, Express.js, and MongoDB. Implemented secure CRUD operations for managing employee records, departments, and organizational data through RESTful APIs. Designed a responsive admin dashboard with seamless frontend-backend integration, efficient database management, and a scalable application architecture.",
+    image: "/projects/EMS.jpg",
+    tags: ["React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs", "TailwindCSS"],
+    link: "https://emp-manage-silk.vercel.app/",
+    github: "https://github.com/Himesh-Prajapati/EMP-Manage",
   },
   {
-    title: "E-Commerce (ShopEase)",
+    title: "Travel Ease",
     description:
-      "a full-stack E-Commerce web application using React, TailwindCSS, Java Spring Boot, and MySQL with features like product listing, shopping cart, user authentication, and order management.",
-    image: "/projects/ecommerce.png",
-    tags: ["React.js", "Java", "SprintBoot", "PostgreSQL"],
-    link: "#",
-    github: "#",
+      "Developed a full-stack car rental platform using React.js, Node.js, Express.js, and MongoDB. Implemented vehicle listing, online booking, authentication, and reservation management with REST APIs. Built a responsive UI using Tailwind CSS with seamless frontend-backend integration.",
+    image: "/projects/Travel.jpg",
+    tags: ["React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs", "TailwindCSS"],
+    link: "https://travel-ease-delta.vercel.app/",
+    github: "https://github.com/Himesh-Prajapati/Travel_Ease",
   },
   {
     title: "Music Player",
@@ -28,17 +49,7 @@ const projects = [
     link: "#",
     github: "#",
   },
-  {
-    title: "Banking Application (Secure Bank",
-    description:
-      "Developing a secure Banking Application using React, TailwindCSS, Java Spring Boot, and PostgreSQL with features like user authentication, money transfer, transaction history, and account management through a responsive and user-friendly interface.",
-    image: "/projects/Banking.png",
-    tags: ["React.js", "TailwindCSS", "Java", "Spring Boot", "PostgreSQL", "JWT Authentication", "REST APIs"],
-    link: "#",
-    github: "#",
-  },
 ];
-
 export const Projects = () => {
   return (
     <section id="projects" className="py-32 relative overflow-hidden">
